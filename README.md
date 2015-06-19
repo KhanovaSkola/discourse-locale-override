@@ -27,11 +27,11 @@ Rebuild Discourse: `/var/discourse/launcher rebuild app`
 
 1. Fork this repository
 2. Remove `config/locales/*.pl_PL.yml` files *(optional)*
-3. Add `config/locales/*.xx_XX.yml` ones    
-  **Warning:** `xx_XX` should be the language code you want to *override*.    
-  Files with this locale code must be already present upstream at  [discourse/config/locales](https://github.com/discourse/discourse/tree/master/config/locales).    
+3. Add `config/locales/*.xx_XX.yml` ones
+  **Warning:** `xx_XX` should be the language code you want to *override*.
+  Files with this locale code must be already present upstream at  [discourse/config/locales](https://github.com/discourse/discourse/tree/master/config/locales).
   This is important: adding non-existing locale codes will *break your instance*.
-4. **Crucial:** make sure your `.yml` files are valid.    
+4. **Crucial:** make sure your `.yml` files are valid.
   Test them at the [YAML Validator](http://www.yamllint.com) before you commit them to your repository.
 5. Update repository URL in Docker hook to point to your fork
 

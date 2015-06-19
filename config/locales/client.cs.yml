@@ -1,0 +1,16 @@
+cs:
+  js:
+    dates:
+      later:
+        x_days:
+          one: "1 den později"
+          few: "%{count} dny později"
+          other: "%{count} dní později"
+        x_months:
+          one: "1 měsíc později"
+          few: "%{count} měsíce později"
+          other: "%{count} měsíců později"
+        x_years:
+          one: "1 rok later"
+          other: "%{count} roky později"
+          other: "%{count} let později"
